@@ -21,6 +21,38 @@ body {
   color: #4a4b4c;
 }
 
+
+/* OUTLINE-STYLES */
+*:focus {
+  outline: 2px dashed #7296ec;
+}
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 13px 20px;
+  cursor: pointer;
+  line-height: normal;
+
+}
+.button-primary {
+  background-color: #7296ec;
+  color: #fff;
+}
+
+.button-primary:hover {
+  opacity: 0.8;
+}
+
+.button-primary:active {
+  opacity: 0.6;
+}
+
 /* CONTAINER */
 .container {
   width: 100%;
@@ -29,4 +61,232 @@ body {
   padding-right: 20px;
   margin-right: auto;
   margin-left: auto;
+}
+/* SITE-HEADER */
+
+
+/* SITE-HEADER-TOP */
+.site-header-top {
+  background-color: #f6f6f6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+.site-header-top-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  background-color:#fff;
+  display: flex;
+  padding: 8px 6px;
+  border-radius: 7px;
+  margin-right: 35px;
+}
+
+.header-logo:hover {
+  opacity: 0.8;
+}
+
+.header-logo:active {
+  opacity: 0.6;
+}
+
+
+/* CURRENCY-RATES */
+.currency-rates {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-right: auto;
+}
+
+.currency-rate-item:not(:last-child) {
+  margin-right: 25px;
+}
+.currency-rates-type {
+  color: #2659ce;
+}
+
+/* GLOBAL SEARCH */
+
+.global-search-form {
+  margin-right: 25px;
+}
+
+.global-search-form-input {
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  padding-right: 20px;
+  border: 0;
+  font-size: 14px;
+  line-height: normal;
+  border-radius: 60px;
+}
+
+
+/* LANG-TOGGLE */
+.lang-toggle {
+  display: flex;
+  padding: 3px;
+  border-radius: 39px;
+  background-color: #dce6ff;
+  margin-right: 25px;
+}
+
+.lang-toggle-link {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  color: #a6a6a6;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  }
+
+.lang-toggle-link-active {
+  background-color: #fff;
+  color:#000
+}
+
+/* SITENAV */
+
+
+.sitenav {
+  border-bottom: 1px solid #d1d1d1;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.sitenav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav-item {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.sitenav-item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.sitenav-link {
+  display: block;
+  text-decoration: none;
+  color: #7f7f7f
+}
+
+.sitenav-link:hover {
+  color: #7296ec;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
+/* SITEHEADER-BANNER */
+.site-header-banner-link {
+  display: flex;
+}
+
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+  padding-top: 50px;
+}
+
+
+/* NEWS-GRID */
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.news-grid-item {
+  width: 393px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  padding: 20px 17px 15px;
+  border-radius: 15px;
+}
+
+.article-card-title {
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.article-card-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+.article-card-link:hover {
+  color: #7296ec;
+}
+
+.article-card-link:active {
+  opacity: 0.6;
+}
+
+.article-card-text {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.article-card-img {
+  display: block;
+  width: 360px;
+  height: 165px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  margin-top: auto;
+}
+
+.article-card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.article-card-source-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.article-card-source-time {
+  font-size: 12px;
+  line-height: normal;
+  color: #5e5f61;
+}
+.article-card-source {
 }
