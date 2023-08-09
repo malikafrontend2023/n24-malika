@@ -12,9 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- STYLES -->
-  <!-- <link rel="stylesheet" href="/css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="/css/styles.css"> -->
-  <link rel="stylesheet" href="css/styles.min.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- <link rel="stylesheet" href="css/styles.min.css"> -->
 </head>
 <body>
   <!-- SITE-HEADER -->
@@ -198,5 +198,22 @@
       </div>
     </div>
   </footer>
+
+  <!-- MODALS -->
+  <section class="modal" id="notifications-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="visually-hidden">Уведомления</div>
+        <button class="modal-close js-modal-close" type="button" aria-label="Закрыть модальное окно">
+          <img class="icon-close" src="img/close-icon.svg" alt=""  width="24" height="24">
+        </button>
+        <p class="modal-text">Хотите быть в курсе свежих новостей?<br>Включите уведомления!</p>
+        <div class="modal-actions">
+          <button class="button button-orange button-large" type="button">Включить</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/main.js"></script>
 </body>
 </html>
